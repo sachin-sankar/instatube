@@ -1,0 +1,1767 @@
+2023-05-19 07:43:50.738 | WARNING  | helpers:<module>:4 - Hwllo
+2023-05-19 08:04:19.849 | ERROR    | insta:getCreators:16 - Creators name list file not found.
+2023-05-19 08:07:49.156 | INFO     | insta:getCreators:23 - Creators data file not found. Creating one
+2023-05-19 08:07:49.231 | ERROR    | insta:getCreators:29 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/insta.py", line 20, in getCreators
+    with open('creators.json','r') as file:
+                                      └ <_io.TextIOWrapper name='creators.txt' mode='rt' encoding='UTF-8'>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'creators.json'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f0cdd416680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f0cded46830>
+
+> File "/home/runner/instatube/insta.py", line 27, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'gaaju.katli\n'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f0cdd4144c0>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+TypeError: UserMixin.user_id_from_username() missing 1 required positional argument: 'username'
+2023-05-19 08:07:49.247 | ERROR    | insta:getCreators:29 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/insta.py", line 20, in getCreators
+    with open('creators.json','r') as file:
+                                      └ <_io.TextIOWrapper name='creators.txt' mode='rt' encoding='UTF-8'>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'creators.json'
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f0cdd416680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f0cded46830>
+
+> File "/home/runner/instatube/insta.py", line 27, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f0cdd4144c0>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+TypeError: UserMixin.user_id_from_username() missing 1 required positional argument: 'username'
+2023-05-19 08:07:49.261 | INFO     | insta:getCreators:32 - Wrote creators data file
+2023-05-19 08:07:49.263 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:07:49.327 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f0cdd416680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f0cded46830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'gaaju.katli\n'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f0cdd4144c0>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+TypeError: UserMixin.user_id_from_username() missing 1 required positional argument: 'username'
+2023-05-19 08:07:49.330 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f0cdd416680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f0cded46830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f0cdd4144c0>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+TypeError: UserMixin.user_id_from_username() missing 1 required positional argument: 'username'
+2023-05-19 08:07:49.339 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:11:26.044 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:11:26.071 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f26a123e680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f26a2bae830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(username=creator)
+    │        │          │  │                              └ 'gaaju.katli\n'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f26a123c4c0>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+TypeError: UserMixin.user_id_from_username() missing 1 required positional argument: 'self'
+2023-05-19 08:11:26.142 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f26a123e680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f26a2bae830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(username=creator)
+    │        │          │  │                              └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f26a123c4c0>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+TypeError: UserMixin.user_id_from_username() missing 1 required positional argument: 'self'
+2023-05-19 08:11:26.246 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:13:10.472 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:13:10.565 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f5b96726680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f5ba40ca830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_info_by_username(username=creator).dict()['pk']
+    │        │          │  │                              └ 'gaaju.katli\n'
+    │        │          │  └ <function UserMixin.user_info_by_username at 0x7f5b96724820>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+TypeError: UserMixin.user_info_by_username() missing 1 required positional argument: 'self'
+2023-05-19 08:13:10.595 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f5b96726680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f5ba40ca830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_info_by_username(username=creator).dict()['pk']
+    │        │          │  │                              └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_info_by_username at 0x7f5b96724820>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+TypeError: UserMixin.user_info_by_username() missing 1 required positional argument: 'self'
+2023-05-19 08:13:10.637 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:15:43.673 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:15:43.749 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7fbbd5926680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7fbbd7292830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_info_by_username(creator).dict()['pk']
+    │        │          │  │                     └ 'gaaju.katli\n'
+    │        │          │  └ <function UserMixin.user_info_by_username at 0x7fbbd5924820>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+TypeError: UserMixin.user_info_by_username() missing 1 required positional argument: 'username'
+2023-05-19 08:15:43.764 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7fbbd5926680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7fbbd7292830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_info_by_username(creator).dict()['pk']
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_info_by_username at 0x7fbbd5924820>
+    │        │          └ <class 'instagrapi.Client'>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+TypeError: UserMixin.user_info_by_username() missing 1 required positional argument: 'username'
+2023-05-19 08:15:43.781 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:18:54.964 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:18:55.025 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f48b42265f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f48b5baa7a0>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_by_username(creator)
+    │        │          │                      └ 'gaaju.katli\n'
+    │        │          └ <instagrapi.Client object at 0x7f48b6b771f0>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+AttributeError: 'Client' object has no attribute 'user_id_by_username'
+2023-05-19 08:18:55.041 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f48b42265f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f48b5baa7a0>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_by_username(creator)
+    │        │          │                      └ 'thanos_mama.exe'
+    │        │          └ <instagrapi.Client object at 0x7f48b6b771f0>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+AttributeError: 'Client' object has no attribute 'user_id_by_username'
+2023-05-19 08:18:55.061 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:19:35.039 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:19:37.688 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f50ced96710>
+    └ <Response [404]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [404]>
+          │         └ '404 Client Error: Not Found for url: https://www.instagram.com/gaaju.katli%0A/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.instagram.com/gaaju.katli%0A/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'gaaju.katli\n'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f50cdb14670>
+           └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f50cdb023b0>
+           │                └ <instagrapi.Client object at 0x7f50e449f1f0>
+           └ <function extract_user_gql at 0x7f50ce7a09d0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f50cdb02320>
+               └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 105, in public_request
+    raise e  # Stop retries
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/gaaju.katli\n/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f50cdb02290>
+           └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 196, in _send_public_request
+    raise ClientNotFoundError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientNotFoundError'>
+
+instagrapi.exceptions.ClientNotFoundError: 404 Client Error: Not Found for url: https://www.instagram.com/gaaju.katli%0A/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 360, in _send_private_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f50ced96710>
+    └ <Response [404]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [404]>
+          │         └ '404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/gaaju.katli%0A/usernameinfo/'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/gaaju.katli%0A/usernameinfo/
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f50cdb02050>
+             └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/gaaju.katli\n/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f50cdb01f30>
+    └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 455, in _send_private_request
+    raise ClientNotFoundError(e, response=e.response, **last_json)
+          │                                             └ {}
+          └ <class 'instagrapi.exceptions.ClientNotFoundError'>
+
+instagrapi.exceptions.ClientNotFoundError: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/gaaju.katli%0A/usernameinfo/
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f50cdb165f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f50cf48a7a0>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'gaaju.katli\n'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f50cdb14430>
+    │        │          └ <instagrapi.Client object at 0x7f50e449f1f0>
+    │        └ 'gaaju.katli\n'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'gaaju.katli\n'
+               │    └ <function UserMixin.user_info_by_username at 0x7f50cdb14790>
+               └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'gaaju.katli\n'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f50cdb14700>
+           └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 165, in user_info_by_username_v1
+    raise UserNotFound(e, username=username, **self.last_json)
+          │                        │           │    └ {}
+          │                        │           └ <instagrapi.Client object at 0x7f50e449f1f0>
+          │                        └ 'gaaju.katli\n'
+          └ <class 'instagrapi.exceptions.UserNotFound'>
+
+instagrapi.exceptions.UserNotFound: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/gaaju.katli%0A/usernameinfo/
+2023-05-19 08:19:50.752 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f50ced96710>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f50cdb14670>
+           └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f50cdb023b0>
+           │                └ <instagrapi.Client object at 0x7f50e449f1f0>
+           └ <function extract_user_gql at 0x7f50ce7a09d0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f50cdb02320>
+               └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/thanos_mama.exe/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f50cdb02290>
+           └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f50cf0548b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f50cdb1fc70>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f50cf0548b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f50cdb1fc70>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f50cf0548b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f50cdb1fc70>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f50cf0548b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f50cdb1fc70>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f50cdb1fc70>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7f50cdb986a0>
+              │       │         │       └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7f50cf1dc9d0>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f50cdb1fc70>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f50cdb165f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f50cf48a7a0>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f50cdb14430>
+    │        │          └ <instagrapi.Client object at 0x7f50e449f1f0>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'thanos_mama.exe'
+               │    └ <function UserMixin.user_info_by_username at 0x7f50cdb14790>
+               └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f50cdb14700>
+           └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f50cdb02050>
+             └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/thanos_mama.exe/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f50cdb01f30>
+    └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7f50cebad3f0>
+               │    └ <requests.sessions.Session object at 0x7f50cdb1cf10>
+               └ <instagrapi.Client object at 0x7f50e449f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/thanos_mama.exe/usernameinfo/'
+           │    └ <function Session.request at 0x7f50cebad360>
+           └ <requests.sessions.Session object at 0x7f50cdb1cf10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7f50cebad7e0>
+           └ <requests.sessions.Session object at 0x7f50cdb1cf10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7f50cebacca0>
+        └ <requests.adapters.HTTPAdapter object at 0x7f50cdb1d3c0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:19:50.781 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:20:16.995 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:20:30.036 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f152370e710>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f15224d4670>
+           └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f15224c23b0>
+           │                └ <instagrapi.Client object at 0x7f1538e5f1f0>
+           └ <function extract_user_gql at 0x7f15230ac9d0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f15224c2320>
+               └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/gaaju.katli/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f15224c2290>
+           └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7f15224db670>
+              │       │         │       └ '/api/v1/users/gaaju.katli/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7f1523b549d0>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/gaaju.katli/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f15224d65f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f1523e027a0>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'gaaju.katli'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f15224d4430>
+    │        │          └ <instagrapi.Client object at 0x7f1538e5f1f0>
+    │        └ 'gaaju.katli'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'gaaju.katli'
+               │    └ <function UserMixin.user_info_by_username at 0x7f15224d4790>
+               └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f15224d4700>
+           └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f15224c2050>
+             └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/gaaju.katli/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f15224c1f30>
+    └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7f15235253f0>
+               │    └ <requests.sessions.Session object at 0x7f15224d8f10>
+               └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/gaaju.katli/usernameinfo/'
+           │    └ <function Session.request at 0x7f1523525360>
+           └ <requests.sessions.Session object at 0x7f15224d8f10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7f15235257e0>
+           └ <requests.sessions.Session object at 0x7f15224d8f10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7f1523524ca0>
+        └ <requests.adapters.HTTPAdapter object at 0x7f15224d93c0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:20:43.074 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f152370e710>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f15224d4670>
+           └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f15224c23b0>
+           │                └ <instagrapi.Client object at 0x7f1538e5f1f0>
+           └ <function extract_user_gql at 0x7f15230ac9d0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f15224c2320>
+               └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/thanos_mama.exe/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f15224c2290>
+           └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f15239cc8b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7f15225598a0>
+              │       │         │       └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7f1523b549d0>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f15224dbf40>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f15224d65f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f1523e027a0>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f15224d4430>
+    │        │          └ <instagrapi.Client object at 0x7f1538e5f1f0>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'thanos_mama.exe'
+               │    └ <function UserMixin.user_info_by_username at 0x7f15224d4790>
+               └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f15224d4700>
+           └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f15224c2050>
+             └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/thanos_mama.exe/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f15224c1f30>
+    └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7f15235253f0>
+               │    └ <requests.sessions.Session object at 0x7f15224d8f10>
+               └ <instagrapi.Client object at 0x7f1538e5f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/thanos_mama.exe/usernameinfo/'
+           │    └ <function Session.request at 0x7f1523525360>
+           └ <requests.sessions.Session object at 0x7f15224d8f10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7f15235257e0>
+           └ <requests.sessions.Session object at 0x7f15224d8f10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7f1523524ca0>
+        └ <requests.adapters.HTTPAdapter object at 0x7f15224d93c0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:20:43.104 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:25:03.424 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:25:16.548 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f3ecdc3e7a0>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f3ecca04700>
+           └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f3ecc9f2440>
+           │                └ <instagrapi.Client object at 0x7f3ecf3072e0>
+           └ <function extract_user_gql at 0x7f3ecd64ca60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f3ecc9f23b0>
+               └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/gaaju.katli/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f3ecc9f2320>
+           └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7f3ecca0d2d0>
+              │       │         │       └ '/api/v1/users/gaaju.katli/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7f3ece084a60>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/gaaju.katli/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f3ecca06680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f3ece336830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'gaaju.katli'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f3ecca044c0>
+    │        │          └ <instagrapi.Client object at 0x7f3ecf3072e0>
+    │        └ 'gaaju.katli'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'gaaju.katli'
+               │    └ <function UserMixin.user_info_by_username at 0x7f3ecca04820>
+               └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f3ecca04790>
+           └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f3ecc9f20e0>
+             └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/gaaju.katli/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f3ecc9f1fc0>
+    └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7f3ecda55480>
+               │    └ <requests.sessions.Session object at 0x7f3ecca0cee0>
+               └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/gaaju.katli/usernameinfo/'
+           │    └ <function Session.request at 0x7f3ecda553f0>
+           └ <requests.sessions.Session object at 0x7f3ecca0cee0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7f3ecda55870>
+           └ <requests.sessions.Session object at 0x7f3ecca0cee0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7f3ecda54d30>
+        └ <requests.adapters.HTTPAdapter object at 0x7f3ecca0d390>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:25:29.568 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f3ecdc3e7a0>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f3ecca04700>
+           └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f3ecc9f2440>
+           │                └ <instagrapi.Client object at 0x7f3ecf3072e0>
+           └ <function extract_user_gql at 0x7f3ecd64ca60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f3ecc9f23b0>
+               └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/thanos_mama.exe/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f3ecc9f2320>
+           └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f3ecdf00940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7f3ecca8ebf0>
+              │       │         │       └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7f3ece084a60>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f3ecca0fb50>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f3ecca06680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f3ece336830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f3ecca044c0>
+    │        │          └ <instagrapi.Client object at 0x7f3ecf3072e0>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'thanos_mama.exe'
+               │    └ <function UserMixin.user_info_by_username at 0x7f3ecca04820>
+               └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f3ecca04790>
+           └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f3ecc9f20e0>
+             └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/thanos_mama.exe/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f3ecc9f1fc0>
+    └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7f3ecda55480>
+               │    └ <requests.sessions.Session object at 0x7f3ecca0cee0>
+               └ <instagrapi.Client object at 0x7f3ecf3072e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/thanos_mama.exe/usernameinfo/'
+           │    └ <function Session.request at 0x7f3ecda553f0>
+           └ <requests.sessions.Session object at 0x7f3ecca0cee0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7f3ecda55870>
+           └ <requests.sessions.Session object at 0x7f3ecca0cee0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7f3ecda54d30>
+        └ <requests.adapters.HTTPAdapter object at 0x7f3ecca0d390>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:25:29.598 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:27:40.725 | INFO     | insta:getCreators:35 - Updating creators data for new creator
+2023-05-19 08:27:53.846 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f573f0fe7a0>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f573de9c700>
+           └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f573de8a440>
+           │                └ <instagrapi.Client object at 0x7f57547db2e0>
+           └ <function extract_user_gql at 0x7f573eb0ca60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f573de8a3b0>
+               └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/gaaju.katli/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f573de8a320>
+           └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f573f3bc940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f573dea7c10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f573f3bc940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f573dea7c10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f573f3bc940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f573dea7c10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7f573f3bc940>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f573dea7c10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f573dea7c10>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7f573dea7580>
+              │       │         │       └ '/api/v1/users/gaaju.katli/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7f573f544a60>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/gaaju.katli/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f573dea7c10>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f573de9e680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f573f7f2830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'gaaju.katli'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f573de9c4c0>
+    │        │          └ <instagrapi.Client object at 0x7f57547db2e0>
+    │        └ 'gaaju.katli'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'gaaju.katli'
+               │    └ <function UserMixin.user_info_by_username at 0x7f573de9c820>
+               └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f573de9c790>
+           └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f573de8a0e0>
+             └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/gaaju.katli/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f573de89fc0>
+    └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7f573ef15480>
+               │    └ <requests.sessions.Session object at 0x7f573dea4ee0>
+               └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/gaaju.katli/usernameinfo/'
+           │    └ <function Session.request at 0x7f573ef153f0>
+           └ <requests.sessions.Session object at 0x7f573dea4ee0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7f573ef15870>
+           └ <requests.sessions.Session object at 0x7f573dea4ee0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7f573ef14d30>
+        └ <requests.adapters.HTTPAdapter object at 0x7f573dea5390>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:28:01.840 | ERROR    | insta:getCreators:44 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7f573f0fe7a0>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7f573de9c700>
+           └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7f573de8a440>
+           │                └ <instagrapi.Client object at 0x7f57547db2e0>
+           └ <function extract_user_gql at 0x7f573eb0ca60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7f573de8a3b0>
+               └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/thanos_mama.exe/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7f573de8a320>
+           └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7f573de9e680>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7f573f7f2830>
+
+> File "/home/runner/instatube/insta.py", line 42, in getCreators
+    creators[creator] = cl.user_id_from_username(creator)
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_id_from_username at 0x7f573de9c4c0>
+    │        │          └ <instagrapi.Client object at 0x7f57547db2e0>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 50, in user_id_from_username
+    return str(self.user_info_by_username(username).pk)
+               │    │                     └ 'thanos_mama.exe'
+               │    └ <function UserMixin.user_info_by_username at 0x7f573de9c820>
+               └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7f573de9c790>
+           └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7f573de8a0e0>
+             └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/thanos_mama.exe/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7f573de89fc0>
+    └ <instagrapi.Client object at 0x7f57547db2e0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 318, in _send_private_request
+    time.sleep(self.request_timeout)
+    │    │     │    └ 1
+    │    │     └ <instagrapi.Client object at 0x7f57547db2e0>
+    │    └ <built-in function sleep>
+    └ <module 'time' (built-in)>
+
+KeyboardInterrupt
+2023-05-19 08:28:01.878 | INFO     | insta:getCreators:47 - Updated creators data file
+2023-05-19 08:30:36.830 | INFO     | insta:getCreators:36 - Updating creators data for new creator
+2023-05-19 08:30:49.922 | ERROR    | insta:getCreators:45 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7fabac796710>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7fab97514670>
+           └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7fab975023b0>
+           │                └ <instagrapi.Client object at 0x7fabade9f1f0>
+           └ <function extract_user_gql at 0x7fabac1a49d0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7fab97502320>
+               └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/gaaju.katli/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7fab97502290>
+           └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/gaaju.katli/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7fab9751f670>
+              │       │         │       └ '/api/v1/users/gaaju.katli/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7fabacbe09d0>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/gaaju.katli/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7fab975165f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7fabace8e7a0>
+
+> File "/home/runner/instatube/insta.py", line 43, in getCreators
+    creators[creator] = cl.user_info_by_username(creator).dict()['pk']
+    │        │          │  │                     └ 'gaaju.katli'
+    │        │          │  └ <function UserMixin.user_info_by_username at 0x7fab97514790>
+    │        │          └ <instagrapi.Client object at 0x7fabade9f1f0>
+    │        └ 'gaaju.katli'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'gaaju.katli'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7fab97514700>
+           └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7fab97502050>
+             └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/gaaju.katli/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7fab97501f30>
+    └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7fabac5b13f0>
+               │    └ <requests.sessions.Session object at 0x7fab9751cf10>
+               └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/gaaju.katli/usernameinfo/'
+           │    └ <function Session.request at 0x7fabac5b1360>
+           └ <requests.sessions.Session object at 0x7fab9751cf10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7fabac5b17e0>
+           └ <requests.sessions.Session object at 0x7fab9751cf10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7fabac5b0ca0>
+        └ <requests.adapters.HTTPAdapter object at 0x7fab9751d3c0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/gaaju.katli/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:31:02.984 | ERROR    | insta:getCreators:45 - Exception when getting creator id
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 165, in _send_public_request
+    response.raise_for_status()
+    │        └ <function Response.raise_for_status at 0x7fabac796710>
+    └ <Response [401]>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [401]>
+          │         └ '401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 192, in user_info_by_username
+    user = self.user_info_by_username_gql(username)
+           │    │                         └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_gql at 0x7fab97514670>
+           └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 145, in user_info_by_username_gql
+    return extract_user_gql(self.public_a1_request(f"/{username!s}/")["user"])
+           │                │    └ <function PublicRequestMixin.public_a1_request at 0x7fab975023b0>
+           │                └ <instagrapi.Client object at 0x7fabade9f1f0>
+           └ <function extract_user_gql at 0x7fabac1a49d0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 208, in public_a1_request
+    response = self.public_request(
+               │    └ <function PublicRequestMixin.public_request at 0x7fab97502320>
+               └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 122, in public_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 99, in public_request
+    return self._send_public_request(url, **kwargs)
+           │    │                    │      └ {'data': None, 'params': {'__a': 1, '__d': 'dis'}, 'headers': None, 'return_json': True}
+           │    │                    └ 'https://www.instagram.com/thanos_mama.exe/'
+           │    └ <function PublicRequestMixin._send_public_request at 0x7fab97502290>
+           └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/public.py", line 198, in _send_public_request
+    raise ClientError(e, response=e.response)
+          └ <class 'instagrapi.exceptions.ClientError'>
+
+instagrapi.exceptions.ClientError: 401 Client Error: Unauthorized for url: https://www.instagram.com/thanos_mama.exe/?__a=1&__d=dis
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 878, in urlopen
+    return self.urlopen(
+           │    └ <function HTTPConnectionPool.urlopen at 0x7fabaca588b0>
+           └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 868, in urlopen
+    retries = retries.increment(method, url, response=response, _pool=self)
+              │       │         │       │             │               └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+              │       │         │       │             └ <urllib3.response.HTTPResponse object at 0x7fab975999c0>
+              │       │         │       └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+              │       │         └ 'GET'
+              │       └ <function Retry.increment at 0x7fabacbe09d0>
+              └ Retry(total=0, connect=None, read=None, redirect=None, status=None)
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+          │             │      │    │        │             └ 'too many 429 error responses'
+          │             │      │    │        └ <class 'urllib3.exceptions.ResponseError'>
+          │             │      │    └ None
+          │             │      └ '/api/v1/users/thanos_mama.exe/usernameinfo/'
+          │             └ <urllib3.connectionpool.HTTPSConnectionPool object at 0x7fab9751fa60>
+          └ <class 'urllib3.exceptions.MaxRetryError'>
+
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "main.py", line 10, in <module>
+    print(insta.getCreators())
+    │     │     └ <function getCreators at 0x7fab975165f0>
+    │     └ <module 'insta' from '/home/runner/instatube/insta.py'>
+    └ <function pprint at 0x7fabace8e7a0>
+
+> File "/home/runner/instatube/insta.py", line 43, in getCreators
+    creators[creator] = cl.user_info_by_username(creator).dict()['pk']
+    │        │          │  │                     └ 'thanos_mama.exe'
+    │        │          │  └ <function UserMixin.user_info_by_username at 0x7fab97514790>
+    │        │          └ <instagrapi.Client object at 0x7fabade9f1f0>
+    │        └ 'thanos_mama.exe'
+    └ {}
+
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 200, in user_info_by_username
+    user = self.user_info_by_username_v1(username)
+           │    │                        └ 'thanos_mama.exe'
+           │    └ <function UserMixin.user_info_by_username_v1 at 0x7fab97514700>
+           └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/user.py", line 163, in user_info_by_username_v1
+    result = self.private_request(f"users/{username}/usernameinfo/")
+             │    └ <function PrivateRequestMixin.private_request at 0x7fab97502050>
+             └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 535, in private_request
+    raise e
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 520, in private_request
+    self._send_private_request(endpoint, **kwargs)
+    │    │                     │           └ {'data': None, 'params': None, 'login': False, 'with_signature': True, 'headers': None, 'extra_sig': None, 'domain': None}
+    │    │                     └ 'users/thanos_mama.exe/usernameinfo/'
+    │    └ <function PrivateRequestMixin._send_private_request at 0x7fab97501f30>
+    └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/instagrapi/mixins/private.py", line 346, in _send_private_request
+    response = self.private.get(
+               │    │       └ <function Session.get at 0x7fabac5b13f0>
+               │    └ <requests.sessions.Session object at 0x7fab9751cf10>
+               └ <instagrapi.Client object at 0x7fabade9f1f0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
+    return self.request("GET", url, **kwargs)
+           │    │              │      └ {'params': None, 'proxies': {}, 'allow_redirects': True}
+           │    │              └ 'https://i.instagram.com/api/v1/users/thanos_mama.exe/usernameinfo/'
+           │    └ <function Session.request at 0x7fabac5b1360>
+           └ <requests.sessions.Session object at 0x7fab9751cf10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+           │    │    │       └ {'timeout': None, 'allow_redirects': True, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificat...
+           │    │    └ <PreparedRequest [GET]>
+           │    └ <function Session.send at 0x7fabac5b17e0>
+           └ <requests.sessions.Session object at 0x7fab9751cf10>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+        │       │    │          └ {'timeout': None, 'proxies': OrderedDict(), 'stream': False, 'verify': '/etc/ssl/certs/ca-certificates.crt', 'cert': None}
+        │       │    └ <PreparedRequest [GET]>
+        │       └ <function HTTPAdapter.send at 0x7fabac5b0ca0>
+        └ <requests.adapters.HTTPAdapter object at 0x7fab9751d3c0>
+  File "/home/runner/instatube/venv/lib/python3.10/site-packages/requests/adapters.py", line 556, in send
+    raise RetryError(e, request=request)
+          │                     └ <PreparedRequest [GET]>
+          └ <class 'requests.exceptions.RetryError'>
+
+requests.exceptions.RetryError: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/thanos_mama.exe/usernameinfo/ (Caused by ResponseError('too many 429 error responses'))
+2023-05-19 08:31:03.013 | INFO     | insta:getCreators:48 - Updated creators data file
